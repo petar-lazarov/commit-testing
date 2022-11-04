@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: testspace-com/setup-testspace@v1
         with:
-          domain: lo petar-lazarov:commit-testing
+          domain: loud-hotels-sniff-46-10-148-253.loca.lt
           token: ${{ secrets.TESTSPACE_TOKEN }}
       - name: Set testspace client url
         run: |
