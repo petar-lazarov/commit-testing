@@ -10,8 +10,8 @@ jobs:
         with:
           domain: ${{ github.repository_owner }}
       - name: Set testspace client url
-          run: |
-            testspace config url loud-hotels-sniff-46-10-148-253.loca.lt
+        run: |
+          testspace config url loud-hotels-sniff-46-10-148-253.loca.lt
       - name: Push result to Testspace server
         run: |
           testspace "[automated results]results.xml"
