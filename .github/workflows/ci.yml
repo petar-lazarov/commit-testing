@@ -9,7 +9,6 @@ jobs:
       - uses: testspace-com/setup-testspace@v1
         with:
           domain: a802-94-155-194-42.ngrok.io
-          token: ${{ secrets.TESTSPACE_TOKEN }}
       - name: Set testspace client url
         run: |
           testspace config url a802-94-155-194-42.ngrok.io
